@@ -1,0 +1,120 @@
+.process {
+  text-align: center;
+  padding: 2rem;
+  background-color: #1452a3;
+  border: 0.1rem solid #1452a3;
+  border-radius: 2rem;
+  margin: 15rem;
+}
+
+.process__heading {
+  padding: 2rem;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 5.464rem;
+  color: #fff;
+}
+
+.process__boxes {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 3rem;
+}
+
+.process__box {
+  flex: 1;
+  background-color: #fff;
+  border: 0.1rem solid #fff;
+  border-radius: 0.8rem;
+  padding: 2rem;
+}
+
+.process__box-number {
+  color: #1452a3;
+  width: 6.446rem;
+  height: 6.446rem;
+  border-radius: 1.488rem;
+  border: solid 0.198rem #1452a3;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto 2rem auto;
+  line-height: 5.689rem;
+  font-size: 4.165rem;
+  font-weight: 800;
+}
+
+.process__box-text0 {
+  padding: 1rem;
+  color: #1452a3;
+  font-family: Manrope;
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 2.083rem;
+  text-align: center;
+}
+
+.process__box-text {
+  font-family: Manrope;
+  font-size: 1.19rem;
+  font-weight: 500;
+  line-height: 1.626rem;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* Media Queries */
+
+/* Desktops and large screens */
+@media (max-width: 1200px) {
+  .process {
+    margin: 10rem;
+  }
+}
+
+/* Small screens and laptops */
+@media (max-width: 1024px) {
+  .process {
+    margin: 8rem;
+  }
+}
+
+/* iPads and Tablets */
+@media (max-width: 768px) {
+  .process {
+    margin: 6rem;
+    padding: 1.5rem;
+  }
+  .process__boxes {
+    flex-direction: column;
+  }
+  .process__box {
+    margin-bottom: 2rem;
+  }
+
+  .process__box-number {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+  .process {
+    margin: 4rem;
+    padding: 1rem;
+  }
+  .process__boxes {
+    flex-direction: column;
+  }
+  .process__box {
+    margin-bottom: 1.5rem;
+  }
+
+  .process__box-number {
+    width: 4rem;
+    height: 4rem;
+  }
+}

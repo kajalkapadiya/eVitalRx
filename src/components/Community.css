@@ -1,0 +1,51 @@
+/* Community.css */
+
+.community_container {
+  margin: 15rem 0rem 15rem 0;
+  background-color: #004a9d;
+}
+
+.circle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-svg {
+  width: 50%;
+  height: 50%;
+}
+
+.outer-circle,
+.middle-circle,
+.inner-circle {
+  fill: none;
+  stroke: #548bcc;
+  stroke-dasharray: 10, 5; /* This creates the dashed effect. first value would define the how long dash must be? and 2nd value would define the space between dash */
+}
+
+.circle-text {
+  position: absolute;
+  font-family: "Manrope", sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.circle-number {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 8.196rem;
+}
+
+.circle-label {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 3.825rem;
+}
+
+.circle-label-alt {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 2.959rem;
+}

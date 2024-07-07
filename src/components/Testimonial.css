@@ -1,0 +1,127 @@
+/* Testimonial.css */
+
+.testimonial-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.testimonial-heading {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 54.64px;
+  color: #044c9d;
+  margin-bottom: 30px;
+}
+
+.testimonial-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 30px 0px #00000026;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+  max-width: 853px;
+  height: 345px;
+  margin: 0 auto;
+  position: relative; /* Relative positioning for arrow buttons */
+}
+
+.testimonial-profile-image {
+  width: 249px;
+  height: 249px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.testimonial-content {
+  margin-left: 20px;
+  width: 484px;
+  height: auto;
+  text-align: left;
+}
+
+.testimonial-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.32px;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 45px;
+}
+
+.testimonial-name {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.32px;
+}
+
+.testimonial-company {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+.testimonial-arrows {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: -20px;
+  right: 40px;
+}
+
+.testimonial-arrow-button {
+  background-color: #fff;
+  box-shadow: 0 4px 10px 0px #0000001a;
+  border: none;
+  border-radius: 50%;
+  width: 49px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.testimonial-arrow-button svg {
+  width: 32.11px;
+  height: 25px;
+}
+
+@media (max-width: 768px) {
+  .testimonial-box {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .testimonial-profile-image {
+    width: 70%; /* Full width for smaller devices */
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .testimonial-title {
+    padding-top: 20px;
+  }
+
+  .testimonial-text {
+    padding-top: 5px;
+  }
+
+  .testimonial-content {
+    max-width: 100%; /* Full width for smaller devices */
+  }
+
+  .testimonial-arrows {
+    position: static;
+    margin-top: 2rem; /* Adjust as needed */
+  }
+}

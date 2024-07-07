@@ -1,0 +1,152 @@
+/* FAQ.css */
+
+.faq-outer-container {
+  padding: 5rem;
+  margin-top: 5rem;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-left {
+  width: 33.2rem;
+  height: 33.8rem;
+  position: relative;
+}
+
+.faq-right {
+  flex: 1;
+  margin-left: 5rem;
+}
+
+.faq-list {
+  list-style-type: decimal;
+  color: #084e9e;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 3.278rem;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.faq-heading {
+  color: #044c9d;
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 4.8rem;
+  text-align: center;
+}
+
+.faq-point {
+  margin-bottom: 2rem;
+}
+
+.faq-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.faq-toggle {
+  background-color: white;
+  color: #084e9e;
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 2.4rem;
+  font-weight: 900;
+  transition: background-color 0.3s ease;
+}
+
+.faq-toggle:hover {
+  background-color: #084e9e;
+  color: white;
+}
+
+.faq-title {
+  color: #084e9e;
+  margin-left: 1rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 3.278rem;
+  text-align: left;
+}
+
+.faq-text {
+  font-size: 1.6rem;
+  margin-left: 1rem;
+  color: #898990;
+  margin-top: 1rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Mobile devices */
+
+  .faq-container {
+    flex-direction: column;
+  }
+
+  .faq-left {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10rem;
+  }
+
+  .faq-image {
+    width: 80%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* iPads, Tablets */
+
+  .faq-container {
+    flex-direction: column;
+  }
+
+  .faq-left {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Small screens, laptops */
+
+  .faq-left {
+    width: 33.2rem;
+    max-width: 33.2rem;
+  }
+
+  .faq-image {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* Desktops, large screens */
+  .faq-left {
+    width: 33.2rem;
+    max-width: 33.2rem;
+  }
+
+  /* .faq-right {
+    margin-left: 50px;
+    max-width: calc(100% - 332px - 50px);
+    width: calc(100% - 332px - 50px);
+  } */
+}

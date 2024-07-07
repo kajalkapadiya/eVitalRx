@@ -1,0 +1,29 @@
+/* 1rem = 16px */
+
+html {
+  font-size: 62.5%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Mobile devices */
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* iPads, Tablets */
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Small screens, laptops */
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+}

@@ -1,0 +1,166 @@
+/* header.css */
+
+.header {
+  background-color: white;
+  padding: 2rem;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.header__logo img {
+  width: 100%;
+  height: auto;
+}
+
+.header__links {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+
+.header__nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__nav-item {
+  margin-right: 2rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #044c9d;
+  font-family: sans-serif;
+}
+
+.header__nav-item1 {
+  margin-right: 2rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.login_btn {
+  margin-right: 2rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #0ca1f6;
+  font-family: sans-serif;
+}
+
+.header__nav-item1:hover {
+  color: #007bff;
+}
+
+.header__buttons {
+  display: flex;
+}
+
+.header__button {
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.header__button--signup {
+  border: 0.1rem solid #0ca1f6;
+  border-radius: 0.4rem;
+  color: #0ca1f6;
+  padding: 1rem 2rem;
+  margin-right: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.header__button--signup:hover {
+  background-color: #0ca1f6;
+  color: #fff;
+}
+
+.header__button--demo {
+  background-color: #0ca1f6;
+  border-radius: 0.4rem;
+  padding: 1rem 2rem;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.header__button--demo:hover {
+  background-color: #e2e2e2;
+}
+
+.header__menu-icon {
+  display: none;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header__links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .header__links.open {
+    display: flex;
+    margin-top: 4rem;
+  }
+
+  .header__nav-list {
+    flex-direction: column;
+  }
+
+  .header__nav-item,
+  .header__nav-item1,
+  .login_btn {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .header__buttons {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .header__button {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .header__menu-icon {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 1rem;
+  }
+
+  .header__button {
+    font-size: 1.4rem;
+    padding: 0.8rem;
+  }
+
+  .header__button--signup,
+  .header__button--demo {
+    padding: 0.8rem;
+  }
+}

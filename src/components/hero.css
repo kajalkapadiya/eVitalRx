@@ -1,0 +1,220 @@
+/* hero.css */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 15rem;
+  left: 15rem;
+}
+
+.hero_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* gap: 20px; */
+}
+
+.hero__ecad-icon {
+  position: absolute;
+  top: 24.6rem;
+}
+
+.hero__ecademy {
+  position: absolute;
+  top: 26.1rem;
+  left: 23.3rem;
+}
+
+.hero__text1 {
+  width: 55.9rem;
+  position: absolute;
+  top: 32.6rem;
+  font-family: Manrope, sans-serif;
+  font-size: 4.8rem;
+  font-weight: 500;
+  line-height: 6rem;
+  /* text-align: left; */
+}
+
+.highlight {
+  color: #004a9d;
+}
+
+.hero__text2 {
+  width: 55.9rem;
+  position: absolute;
+  top: 46.4rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  letter-spacing: 0.06em;
+  /* text-align: left; */
+}
+
+.hero__button {
+  position: absolute;
+  top: 58.3rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #004a9d;
+  color: #fff;
+  line-height: 3rem;
+  text-decoration: none;
+}
+
+.hero__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__image img {
+  width: 40.5rem;
+  height: auto;
+}
+
+/* Media Queries */
+
+/* Desktops and large screens */
+@media (max-width: 1200px) {
+  .hero {
+    margin: 10rem;
+    left: 10rem;
+  }
+
+  .hero__ecad-icon {
+    position: absolute;
+    top: 20rem;
+  }
+
+  .hero__ecademy {
+    top: 22rem;
+    left: 19rem;
+  }
+
+  .hero__text1 {
+    width: 45rem;
+    top: 28rem;
+    font-size: 4rem;
+    line-height: 5.5rem;
+    font-weight: 500;
+  }
+
+  .hero__text2 {
+    width: 35rem;
+    top: 41rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+
+  .hero__button {
+    top: 52rem;
+  }
+
+  .hero__image img {
+    width: 40rem;
+  }
+}
+
+/* Small screens and laptops */
+@media (max-width: 1024px) {
+  .hero__ecad-icon {
+    position: absolute;
+    top: 16rem;
+  }
+
+  .hero__ecademy {
+    top: 17rem;
+    left: 17rem;
+  }
+
+  .hero__text1 {
+    width: 35rem;
+    top: 24rem;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 500;
+  }
+
+  .hero__text2 {
+    width: 35rem;
+    top: 35rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  .hero__button {
+    top: 42rem;
+  }
+
+  .hero {
+    margin: 8rem;
+    left: 0;
+  }
+
+  .hero__image img {
+    width: 35rem;
+  }
+}
+
+/* iPads and Tablets */
+@media (max-width: 768px) {
+  .hero {
+    margin: 6rem;
+    grid-template-columns: 1fr;
+  }
+
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__ecad-icon {
+    position: static;
+    margin-bottom: 2rem;
+  }
+
+  .hero__ecademy {
+    position: static;
+    margin-bottom: 2rem;
+  }
+
+  .hero__text1 {
+    width: auto;
+    position: static;
+    margin-bottom: 2rem;
+  }
+
+  .hero__text2 {
+    width: auto;
+    position: static;
+    margin-bottom: 2rem;
+  }
+
+  .hero__button {
+    position: static;
+    font-size: 1.4rem;
+  }
+
+  .hero__image img {
+    margin-top: 3rem;
+    width: 60%;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+  .hero {
+    margin: 4rem;
+  }
+
+  .hero__image img {
+    margin-top: 3rem;
+    width: 70%;
+  }
+}
