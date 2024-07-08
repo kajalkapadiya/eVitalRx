@@ -3,11 +3,11 @@ import Community from "./components/Community";
 import Contact from "./components/Contact";
 import Courses from "./components/Courses";
 import FAQ from "./components/FAQ";
-import Header from "./components/Header";
+import Header from "./Header";
 import Hero from "./components/Hero";
 import Sucess from "./components/Sucess";
 import Testimonial from "./components/Testimonial";
-import Footer from "./components/Footer";
+import Footer from "./Footer";
 
 function App() {
   return (
