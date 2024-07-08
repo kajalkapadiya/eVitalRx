@@ -70,21 +70,21 @@
 /* Desktops and large screens */
 @media (max-width: 1200px) {
   .process {
-    margin: 10rem;
+    margin: 15rem 10rem;
   }
 }
 
 /* Small screens and laptops */
 @media (max-width: 1024px) {
   .process {
-    margin: 8rem;
+    margin: 15rem 8rem;
   }
 }
 
 /* iPads and Tablets */
 @media (max-width: 768px) {
   .process {
-    margin: 6rem;
+    margin: 15rem 6rem;
     padding: 1.5rem;
   }
   .process__boxes {
@@ -103,7 +103,7 @@
 /* Mobile devices */
 @media (max-width: 480px) {
   .process {
-    margin: 4rem;
+    margin: 15rem 4rem;
     padding: 1rem;
   }
   .process__boxes {

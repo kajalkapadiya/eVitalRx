@@ -38,10 +38,15 @@
   font-size: 1.6rem;
   background-color: #1452a3;
   color: white;
-  border: none;
+  border: solid 0.1rem #1452a3;
   border-radius: 0.5rem;
   cursor: pointer;
   padding: 1rem 2rem 1rem 2rem;
+}
+
+.courses__button0:hover {
+  background-color: white;
+  color: #1452a3;
 }
 
 .courses__button {
@@ -52,6 +57,11 @@
   border-radius: 0.5rem;
   cursor: pointer;
   padding: 1rem 2rem 1rem 2rem;
+}
+
+.courses__button:hover {
+  background-color: #888888;
+  color: white;
 }
 
 .courses__content {
@@ -127,10 +137,6 @@
 
 /* Desktops and large screens */
 @media (max-width: 1200px) {
-  .courses {
-    margin: 10rem;
-  }
-
   .courses__image {
     width: 45rem;
     height: 32rem;
@@ -139,9 +145,6 @@
 
 /* Small screens and laptops */
 @media (max-width: 1024px) {
-  .courses {
-    margin: 8rem; /* Further reduce margin */
-  }
   .courses__image {
     width: 40rem;
     height: 28rem;
@@ -150,9 +153,6 @@
 
 /* iPads and Tablets */
 @media (max-width: 768px) {
-  .courses {
-    margin: 6rem;
-  }
   .courses__content {
     grid-template-columns: 1fr;
   }
@@ -166,7 +166,6 @@
 /* Mobile devices */
 @media (max-width: 480px) {
   .courses {
-    margin: 6rem;
     padding: 2rem 2rem;
   }
   .courses__content {
